@@ -5,8 +5,8 @@ class TextGridOperations:
 
 	def __init__(self, path, pathOut):
 		self.textGrid = TextGrid(path)
-		self.fricatives = self.loadDictionaries("fricatives.txt")
-		self.unvoiced = self.loadDictionaries("unvoiced.txt")
+		self.fricatives = self.loadDictionaries("dict/fricatives.txt")
+		self.unvoiced = self.loadDictionaries("dict/unvoiced.txt")
 		self.xmin = self.textGrid.tiers.xmin
 		self.xmax = self.textGrid.tiers.xmax
 		self.computeZscores()
@@ -170,6 +170,9 @@ class TextGridOperations:
 
 		self.addTier("tones", toneTier)
 		self.addTier("breaks", breakTier)
+
+		print("Tones and breaks have been annotated")
+		print("....................................")
 
 	def createPromPoints(self,word):
 		word_s = word.xmin
