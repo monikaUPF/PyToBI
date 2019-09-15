@@ -11,11 +11,17 @@ To use the code you need to simply:
 
 2.- Download Praat from http://www.fon.hum.uva.nl/praat/
 
-3.- Modify the bash script with the suitable paths to your folders
+3.- Modify the bash script with the local path to PyToBI and sytem (Mac or Linux/Windows)
 
-4.- Open a terminal and run the bash script
+4.- Open a terminal and run the bash script specifying the directory to your corpus:
+
+./runPyToBI.sh /path/to/your/files/
 
 Requirements:
-Please, note that you need the word alignment of the wav file you wish to annotate with ToBI. You can get automatic word alignments with different applications. We recommend the Montreal Force Aligner (https://montreal-forced-aligner.readthedocs.io/en/latest/)
+Please, note that you need the word alignment of the wav file you wish to annotate with ToBI. 
+You can get automatic word alignments with different applications. We recommend the Montreal Force Aligner (https://montreal-forced-aligner.readthedocs.io/en/latest/).
 
-The output of the Toolkit are Praat TextGrids annotated with ToBI labels with the word alignment you provided, a Tones tier and a Breaks tier.
+The audio file and word alignment must have the same name, e.g. filename01.wav filename01.TextGrid
+
+
+The output of the Toolkit are Praat TextGrids annotated with ToBI labels with the word alignment you provided, a Tones tier and a Breaks tier. The resulting filname will have the original filename + "\_result.TextGrid"
