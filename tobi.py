@@ -298,7 +298,10 @@ class TextGridOperations:
 		return ann.getFeature(featureName)
 
 if __name__ == '__main__':
-	path = "/home/upf/Desktop/test/"
-	pathIn = path+ "0961_5m_mod4.TextGrid"
-	pathOut = path + "result.TextGrid"
+	import sys
+	path = sys.argv[1]
+	filename = sys.argv[2]
+	pathIn = path + filename + "_mod4.TextGrid"
+
+	pathOut = path + filename + "_result.TextGrid"
 	iT = TextGridOperations(pathIn, pathOut)
