@@ -1,6 +1,6 @@
 ###########################################################################
 #                                                                      	  #
-#  Praat Script: ToBI TAGGER                                     	  #
+#  Praat Script: PyToBI                     		                	  #
 #  Copyright (C) 2019  Mónica Domínguez-Bajo - Universitat Pompeu Fabra   #
 #																		  #
 #    This program is free software: you can redistribute it and/or modify #
@@ -18,7 +18,7 @@
 #                                                                         #
 ###########################################################################
 ##### MODULE 2 ############################################################
-###### Intensity valley detection			v.01				  #
+###### Intensity valley detection			v.01						  #
 ###########################################################################
 clearinfo
 form Parameters
