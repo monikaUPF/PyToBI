@@ -3,7 +3,7 @@
 
 If you use this code or modified it, please cite the following publication:
 
-Domínguez, M., Rohrer, P. and Soler-Company, J. 2019. PyToBI: A Toolkit for ToBI Labeling with Python Data Structures. In Proceedings of Interspeech, Graz, Austria.
+Domínguez, M., Rohrer, P. and Soler-Company, J. 2019. PyToBI: A Toolkit for ToBI Labeling with Python Data Structures. In Proceedings of Interspeech, Graz, Austria, pp: 3675-3676.
 
 To use the code you need to simply: 
 
