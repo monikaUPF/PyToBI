@@ -9,13 +9,13 @@ To use the code you need to simply:
 
 1.- Download or clone this repository
 
-2.- Download Praat from http://www.fon.hum.uva.nl/praat/
+2.- Download Praat from http://www.fon.hum.uva.nl/praat/ and locate the programme inside the PraatScripts directory
 
 3.- Modify the bash script with the local path to PyToBI and sytem (Mac or Linux/Windows)
 
 4.- Open a terminal and run the bash script specifying the directory to your corpus:
 
-./runPyToBI.sh /path/to/your/files/
+./runpytobi.sh /path/to/your/files/
 
 Requirements:
 Please, note that you need the word alignment of the wav file you wish to annotate with ToBI. 
